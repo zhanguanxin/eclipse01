@@ -97,7 +97,7 @@ int main(void) {
 	char keyToECU[4];
 	unsigned short sizeKeyValue = 0;
 
-	puts("!!!Hello World, XPEV0827!!!"); /* prints !!!Hello World!!! */
+	puts("!!!Hello World, XPEV15!!!"); /* prints !!!Hello World!!! */
 	ASAP1A_CCP_ComputeKeyFromSeed(seedFromECU, keyToECU, &sizeKeyValue);
 	//printf("%hhX,%hhX\n", seedFromECU[4]&0xff,seedFromECU[5]&0xff);
 
